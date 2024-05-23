@@ -5,6 +5,6 @@ let height
 height=1.7;
 
 let bmi;
-bmi =bodyweight%(height*height);
+bmi =bodyweight/(height*height);
 
 console.log(bmi);
